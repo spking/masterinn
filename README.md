@@ -1,5 +1,3 @@
-#p-skitakall#
-
 __Description__
 
 Classic Shit-man game.
