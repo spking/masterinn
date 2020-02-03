@@ -2,6 +2,7 @@
 # Sölvi Scheving Pálsson #
 # 2. Febrúar 2020 #
 import random
+import time
 from termcolor import cprint
 
 
@@ -14,7 +15,7 @@ class Deck:
         return self.tegund + "," + str(self.numer)
 
 
-def skapastokk(t, listi):
+def createdeck(t, listi):
     for x in range(1, 14):
         t1 = Deck(t, x)
         listi.append(t1)
