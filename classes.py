@@ -10,11 +10,12 @@ class Deck:
         self.tegund = t
         self.numer = n
 
-    def Skapastokk(self, t, listi):
-        for x in range(1, 14):
-            t1 = Deck(t, x)
-            listi.append(t1)
-        return listi
-
     def __str__(self):
-        return self.tegund +" "+ str(self.numer)
+        return self.tegund + "," + str(self.numer)
+
+
+def skapastokk(t, listi):
+    for x in range(1, 14):
+        t1 = Deck(t, x)
+        listi.append(t1)
+    return listi
