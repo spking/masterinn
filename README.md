@@ -14,7 +14,11 @@ and the player to the left does the same, and the next player and so forth. If t
 the player can take a "risk", by playing the top card from the remaining deck, without seeing what it is, if the risk card is equal to or higher then 
 the top of the placed deck the game proceeds as usual, if it is lower the player picks up the placed deck. Once the remaining deck is finished each player finishes their hand.
 Once their hand is finished the 3 cards facing up become available and can be placed. Once the three cards facing up are finished the three cards
-facing down become available. The player who finishes their cards wins.
+facing down become available. The player who finishes their cards wins. 
+
+Placing conditions:
+If the same number card is placed in all sorts in a row the placed deck is "blown up" and gets thrown into the dead pile.
+If a player has the same number card on hand in a different sort when it isn't their go; that player can "shoot-in" that card and skip the players waiting behind, this effect can not be used with the final six cards on hand.
 
 __Speciality Cards__
 
